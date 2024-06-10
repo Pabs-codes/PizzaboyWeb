@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#6c1d1d;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
